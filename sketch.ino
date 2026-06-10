@@ -62,6 +62,7 @@ void loop() {
       if (!error) {
         tft.fillScreen(ILI9341_BLACK);
         
+        
         JsonArray planes = doc["planes"];
         if (planes.size() > 0) {
           int yoffset = 10; 
