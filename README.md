@@ -1,16 +1,28 @@
 ## Files for the my SkyAPI Satellite! 
 
-Wokwi ESP32 simulator
+### General
+
+This project is my first HW project! It should be relatively simple and not too challenging to execute. I will make a satellite shaped stand for the esp32 that holds an lcd screen, battery, and solar panel. It will constantly pull the flights above me data and relay it onto the screen. It's powered by a small battery which is recharged by the solar panel. I will also have a USBC port on the esp32 in case the solar isn't working well. 
+
+
+### Wokwi ESP32 simulator
 
 This is basically the only software part of my project; the code for the ESP-32. The ESP32 will be the "brains" of the satellite, pinging the API and displaying the resulting data onto a small lcd screen. 
 
-I will also have other parts such as a solar panel to power the ESP32, brass pipes to make a satellite design, the LCD screen, battery charging controller, and a 1000mah battery. 
 
+### Tinkercad model
 
-My inspiration for the project was this youtube video: [https://www.youtube.com/watch?v=0zJG3wExY-c](https://www.youtube.com/watch?v=0zJG3wExY-c) which I will reference throughout my build. 
+I designed the model on tinkercad first and incorporated all of the parts. It's a good baseline and I plan to use it as a guide when building the physical model. 
+
+### Wiring diagram
+
+This one took a lot of research but eventually came up with a solid diagram that I'll adhere to when wiring up the project. It'll map out all of the connections between the components.
 
 
 
 Access API here: [https://dhruvsheth.hackclub.app/docs](https://dhruvsheth.hackclub.app/docs)
 
+Tinkercad here: [https://www.tinkercad.com/things/j3FTLTiIUQx/edit?sharecode=T68Zr0FEf6CChFx03wfxKLV7drfmKHSuUBasd2PIsw0](https://www.tinkercad.com/things/j3FTLTiIUQx/edit?sharecode=T68Zr0FEf6CChFx03wfxKLV7drfmKHSuUBasd2PIsw0)
+
 And the esp32 sim here: [https://wokwi.com/projects/466106591058241537](https://wokwi.com/projects/466106591058241537)
+
